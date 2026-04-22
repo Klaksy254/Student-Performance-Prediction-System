@@ -1,0 +1,25 @@
+# Free Deployment Guide - 100% FREE!
+
+## Quick Start
+1. Create GitHub repo at https://github.com/new
+2. Push code: git remote add origin YOUR-REPO && git push
+3. Deploy to Render.com (free Python hosting): https://render.com
+4. Select Web Service → Connect GitHub → Auto-deploy
+5. Done! Your app is live at render.onrender.com
+
+## No costs required:
+- GitHub: FREE
+- Render.com: FREE tier (750 hrs/month = continuous free)
+- Custom domain: FREE (render.onrender.com)
+
+## Commands to push to GitHub:
+git remote add origin https://github.com/YOUR-USERNAME/student-performance-system.git
+git branch -M main
+git push -u origin main
+
+## Visit these links:
+- Create GitHub repo: https://github.com/new
+- Deploy backend: https://render.com (sign up, new Web Service, select your repo)
+- Optional frontend: https://vercel.com
+
+See DEPLOYMENT_GUIDE.txt for detailed steps.

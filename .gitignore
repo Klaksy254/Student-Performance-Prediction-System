@@ -1,0 +1,27 @@
+# Virtual environments
+.venv/
+.venv-1/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Generated output
+backend/predicted_results.csv
+backend/users.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
